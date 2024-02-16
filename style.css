@@ -222,8 +222,9 @@ section {
 }
 
 .welcome .box-container .box .content {
+    margin-top: 15rem;
     padding: 2rem;
-    padding-top: 15rem;
+    padding-top: 2rem;
 }
 
 .welcome .box-container .box .content h3 {
