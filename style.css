@@ -201,7 +201,7 @@ section {
 }
 
 .welcome .box-container .box {
-    width: 33%;
+    width: 39%;
     background: var(--black);
     box-shadow: var(--box-shadow);
     text-align: center;
@@ -297,7 +297,7 @@ section {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
 }
 
 .our-chef .item .image img {
@@ -351,7 +351,7 @@ section {
 }
 
 .our-chef .item .chef-info span {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: var(--light-color);
     letter-spacing: 1px;
     font-weight: 300;
@@ -361,7 +361,7 @@ section {
     list-style: none;
     display: flex;
     grid-gap: 2rem;
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .our-chef .item .chef-info ul li a {
