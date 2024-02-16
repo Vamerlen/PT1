@@ -216,7 +216,7 @@ section {
 }
 
 .welcome .box-container .box .img img {
-    height: auto;
+    height: 100p;
     width: 100%;
     object-fit: cover;
 }
