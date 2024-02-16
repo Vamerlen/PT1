@@ -376,30 +376,24 @@ section {
 .reservation {
     display: flex;
     width: 100%;
+    height: 50%;
     flex-wrap: wrap;
 }
 
 .reservation .image {
-    width: 55%;
-    background: url("to\ black\ people\ looking\ at\ the\ menu.jpg");
-    background-size: cover;
+    width: 50%;
+    background: url("img/OIG2 (1).jpeg");
     background-repeat: no-repeat;
     background-position: center center;
     padding: 9rem;
+    background-size: cover;
 }
 
-
-.reservation {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
 
 .reservation .form {
     background: #181818;
-    width: 45%;
+    width: 50%;
     padding: 9rem 7%;
-
 }
 
 .reservation .form h1 {
@@ -460,20 +454,20 @@ section {
 .blog .content h3,
 .blog .content p,
 .blog .content a {
-    color: #333!important;
+    color: #333 !important;
 }
 
 .blog .content a {
     font-size: 14px;
     display: inline-block;
     padding-top: 1rem;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .blog .content img {
-  position:absolute;
-  right: 0; 
-  bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 
@@ -481,9 +475,8 @@ footer {
     box-shadow: var(--box-shadow);
     background: var(--black);
     color: var(--light-color);
-    padding: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+    width: 100%!important;
+    padding: 50px 40px;
     font-size: 14px;
     font-weight: 200;
 }
@@ -574,5 +567,6 @@ footer {
 
     .reservation .image {
         width: 100%;
+        height: 500px;
     }
 }

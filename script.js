@@ -22,6 +22,6 @@ var swiper = new Swiper(".home-slider", {
 
 var year = new Date().getFullYear();
 
-var date = `&copy; Muswamba ${year}. All Rights Reserved.`;
+var date = `&copy; Made by Muswamba at Vafadie ${year}. All Rights Reserved.`;
 
 document.getElementsByTagName('footer')[0].innerHTML = date;
