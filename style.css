@@ -216,13 +216,12 @@ section {
 }
 
 .welcome .box-container .box .img img {
-    height: 100%;
+    height: 150%;
     width: 100%;
     object-fit: cover;
 }
 
 .welcome .box-container .box .content {
-    margin-top: 15rem;
     padding: 2rem;
     padding-top: 2rem;
 }
